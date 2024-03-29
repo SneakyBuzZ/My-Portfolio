@@ -6,7 +6,7 @@ function BioPage() {
   return (
     <>
       <div className="h-screen flex flex-col md:flex-row md:justify-center items-center">
-        <div className="flex flex-col md:flex-col md:gap-8 w-full md:w-2/12 h-2/6 md:h-full justify-center md:justify-between  md:py-5 items-center bg-[#002A6A]">
+        <div className="flex flex-col md:flex-col md:gap-8 w-full md:w-2/12 h-2/6 md:h-full justify-center md:justify-between  md:py-5 items-center bg-[#0d2446]">
           <div className="center-in-flex-col my-1 md:my-3">
             <img
               className="size-14 md:size-20"
