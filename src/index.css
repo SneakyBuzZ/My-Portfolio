@@ -2,11 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background-color: #fff6cc;
+    background-color: #FFFBE5;
     font-family: "Chakra Petch", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.outlet {
+    background: url("/outlet_bg.png") center center no-repeat;
+    background-attachment: fixed;
+    object-fit: cover;
 }
 
 .chakra-petch-light {
@@ -71,5 +82,17 @@ body {
 }
 
 .hover-effect-white {
-    @apply bg-[#e1e1e141] border border-[#ffffff09] hover:border-[#3535353a] rounded-md p-6 gap-3
+    @apply bg-[#ffffffc1] border border-[#ffffff09] hover:border-[#3535353a] rounded-md p-6 gap-3
+}
+
+.blue-color-text {
+    @apply text-[#002A6A]
+}
+
+.peach-color-text {
+    @apply text-[#FFFBE5]
+}
+
+.yellow-color-text {
+    @apply text-[#FFE143]
 }

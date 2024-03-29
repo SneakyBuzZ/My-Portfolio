@@ -22,8 +22,8 @@ function LineComp() {
             {
               label: "Hours",
               data: weeklyData.map((data) => data.hours),
-              backgroundColor: "#00408C",
-              borderColor: "#00408C",
+              backgroundColor: "#33B6FF",
+              borderColor: "#33B6FF",
             },
             {
               label: "Contribution",

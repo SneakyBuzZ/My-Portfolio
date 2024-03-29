@@ -1,11 +1,11 @@
-
+import { ProjectComp } from "../components";
 
 function ProjectPage() {
   return (
     <>
-    <h1 className="text-xl">THIS IS PROJECT</h1>
+      <ProjectComp />
     </>
-  )
+  );
 }
 
-export default ProjectPage
+export default ProjectPage;

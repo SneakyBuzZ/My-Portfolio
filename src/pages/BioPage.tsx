@@ -6,22 +6,23 @@ function BioPage() {
   return (
     <>
       <div className="h-screen flex flex-col md:flex-row md:justify-center items-center">
-        <div className="flex flex-col md:flex-col md:gap-8 w-full md:w-2/12 h-2/6 md:h-full border justify-center md:justify-between  md:py-5 items-center bg-[#ffdd00]">
+        <div className="flex flex-col md:flex-col md:gap-8 w-full md:w-2/12 h-2/6 md:h-full justify-center md:justify-between  md:py-5 items-center bg-[#002A6A]">
           <div className="center-in-flex-col my-1 md:my-3">
             <img
               className="size-14 md:size-20"
               src="/profile_rounded.png"
               alt=""
             />
-            <h1 className="text-md md:text-lg md:mt-1">Kaushik Katikala</h1>
-            <p className="text-[10px] opacity-70">Passionate Tech Enthusiast</p>
+            <h1 className="text-md md:text-lg md:mt-1 text-[#FFFBE5]">
+              Kaushik Katikala
+            </h1>
           </div>
           <div className="flex flex-row gap-10 md:flex-col py-2 md:h-[20rem]">
             <NavLink
               to={"/bio/about"}
               className={({ isActive }) =>
                 `${
-                  isActive ? "text-black font-medium " : "text-[#002A6A]"
+                  isActive ? "text-[#ffe600] font-medium " : "text-[#FFFBE5]"
                 } md:w-full text-xs md:text-md md:px-20 `
               }
             >
@@ -31,7 +32,7 @@ function BioPage() {
               to={"/bio/stats"}
               className={({ isActive }) =>
                 `${
-                  isActive ? "text-black font-medium" : "text-[#002A6A]"
+                  isActive ? "text-[#ffe600] font-medium" : "text-[#FFFBE5]"
                 } md:w-full text-xs md:text-md md:px-20 `
               }
             >
@@ -41,7 +42,7 @@ function BioPage() {
               to={"/bio/projects"}
               className={({ isActive }) =>
                 `${
-                  isActive ? "text-black font-medium " : "text-[#002A6A]"
+                  isActive ? "text-[#ffe600] font-medium " : "text-[#FFFBE5]"
                 } md:w-full text-xs md:text-md md:px-20 `
               }
             >
@@ -50,22 +51,19 @@ function BioPage() {
           </div>
           <button
             onClick={() => navigate("/")}
-            className="bg-black hidden bg-opacity-10 p-2 rounded-md w-2/3 md:flex justify-center  items-center gap-2 my-3"
+            className="bg-[#ffe600] hidden p-2 rounded-md w-2/3 md:flex justify-center  items-center gap-2 my-3"
           >
             <div className="opacity-50">
               <ArrowLeftFromLine size={18} />
             </div>
-            <h1 className="text-lg opacity-70">Back</h1>
+            <h1 className="text-lg opacity-70 blue-color-text font-medium">
+              Back
+            </h1>
           </button>
         </div>
         <div className="md:w-10/12 w-full h-full center-in-flex-col">
-          <div className="size-full p-5 md:p-10 lg:px-28">
+          <div className="size-full p-5 md:p-10 lg:px-28 outlet">
             <Outlet />
-          </div>
-          <div className="w-full flex items-center lg:justify-start justify-center gap-5 h-16 px-10 text-lg text-[#002A6A]">
-            <h1>Github</h1>
-            <h1>Linked In</h1>
-            <h1>X:Twitter</h1>
           </div>
         </div>
       </div>
