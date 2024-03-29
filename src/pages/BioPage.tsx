@@ -46,7 +46,7 @@ function BioPage() {
                 } md:w-full text-xs md:text-md md:px-20 `
               }
             >
-              PROJECT
+              PROJECTS
             </NavLink>
           </div>
           <button

@@ -6,8 +6,7 @@ function AboutPage() {
       <div className="w-full h-full bg-white bg-opacity-35 rounded-md center-in-flex-col gap-8 p-2 overflow-y-auto py-5">
         <p className="text-center text-xs md:text-[15px] lg:text-[18px] w-5/6 blue-color-text font-medium">
           I'm a 2yr ungergrad at Vidya Jyothi Institute of Technology, where I
-          am honing my skills in web development with hands-on experience in
-          Android app development.
+          am honing my skills in web development.
         </p>
         <div className="w-full center-in-flex-col gap-3">
           <h1 className="font-medium md:text-xl blue-color-text">
