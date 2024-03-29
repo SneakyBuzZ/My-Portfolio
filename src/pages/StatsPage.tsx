@@ -1,13 +1,13 @@
-import { StatsComp } from "../components"
+import { StatsComp } from "../components";
 
 function StatsPage() {
   return (
     <>
-    <div className="w-full h-full p-2 flex justify-center items-center md:w-4/6">
-    <StatsComp />
-    </div>
+      <div className=" h-full">
+        <StatsComp />
+      </div>
     </>
-  )
+  );
 }
 
-export default StatsPage
+export default StatsPage;

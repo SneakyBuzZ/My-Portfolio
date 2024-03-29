@@ -62,7 +62,7 @@ function BioPage() {
           <div className="size-full p-5 md:p-10 lg:px-28">
             <Outlet />
           </div>
-          <div className="w-full center-in-flex-row gap-5 h-16 ">
+          <div className="w-full flex items-center lg:justify-start justify-center gap-5 h-16 px-10 text-lg text-[#002A6A]">
             <h1>Github</h1>
             <h1>Linked In</h1>
             <h1>X:Twitter</h1>

@@ -1,0 +1,37 @@
+[
+    {
+        "label": "Mon",
+        "contributions": 7,
+        "hours": 19
+    },
+    {
+        "label": "Tue",
+        "contributions": 19,
+        "hours": 59
+    },
+    {
+        "label": "Wed",
+        "contributions": 15,
+        "hours": 48
+    },
+    {
+        "label": "Thu",
+        "contributions": 7,
+        "hours": 23
+    },
+    {
+        "label": "Fri",
+        "contributions": 8,
+        "hours": 20
+    },
+    {
+        "label": "Sat",
+        "contributions": 20,
+        "hours": 80
+    },
+    {
+        "label": "Sun",
+        "contributions": 41,
+        "hours": 207
+    }
+]

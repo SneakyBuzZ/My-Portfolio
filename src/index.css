@@ -69,3 +69,7 @@ body {
 .center-in-flex-col {
     @apply flex flex-col justify-center items-center
 }
+
+.hover-effect-white {
+    @apply bg-[#e1e1e141] border border-[#ffffff09] hover:border-[#3535353a] rounded-md p-6 gap-3
+}
