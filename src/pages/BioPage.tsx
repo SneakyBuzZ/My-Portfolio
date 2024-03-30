@@ -8,11 +8,9 @@ function BioPage() {
       <div className="h-screen flex flex-col md:flex-row md:justify-center items-center">
         <div className="flex flex-col md:flex-col md:gap-8 w-full md:w-2/12 h-2/6 md:h-full justify-evenly md:justify-between  md:py-5 items-center bg-[#0d2446]">
           <div className="flex flex-col justify-between items-center my-1 md:my-3">
-            <img
-              className="size-14 md:size-20"
-              src="/profile_rounded.png"
-              alt=""
-            />
+            <NavLink to="/">
+              <img className="size-14 md:size-20" src="/profile_rounded.png" />
+            </NavLink>
             <h1 className="text-md md:text-lg md:mt-1 text-[#FFFBE5]">
               Kaushik Katikala
             </h1>
