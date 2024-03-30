@@ -15,16 +15,16 @@ function ProjectComp() {
             href="https://github.com/SneakyBuzZ/Google-Solutions-Final"
             target="_blank"
           >
-            <ProjectBox src="/chatbot_ui.png" title="chatbot ui" />
+            <ProjectBox src="/chatbot_ui.png" title="Chatbot UI" />
           </a>
           <a href="https://github.com/SneakyBuzZ/Compose-Camp" target="_blank">
-            <ProjectBox src="/jazzbeat.png" title="jazzbeat" />
+            <ProjectBox src="/jazzbeat.png" title="Jazz Beat" />
           </a>
           <a
             href="https://github.com/SneakyBuzZ/ExpressWave-Blog-App"
             target="_blank"
           >
-            <ProjectBox src="/expresswave.png" title="expresswave" />
+            <ProjectBox src="/expresswave.png" title="Express Wave" />
           </a>
         </div>
       </div>

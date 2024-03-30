@@ -8,7 +8,7 @@ function StatsComp() {
           These charts showcase my personal journey and expertise in various
           domains. Each chart represents the depth of experience and work I've
           accumulated in different fields, offering a visual narrative of my
-          professional growth and accomplishments.
+          professional growth.
         </h1>
         <div className="w-full h-1/2 flex flex-row gap-2">
           <div className="lg:w-1/3 w-1/2 h-44 md:h-56 hover-effect-white center-in-flex-col">
