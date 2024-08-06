@@ -4,7 +4,7 @@ import { TooltipProvider } from "./ui/tooltip";
 
 const TechStack = () => {
   return (
-    <div className="w-full h-full lg:w-7/12 p-20 md:border-t-0 border-t border-t-stone-800 order-5 text-white flex flex-col justify-start items-center gap-10 md:gap-16 my-auto">
+    <div className="w-full h-full md:p-20 p-10 lg:w-7/12 md:border-t-0 border-t border-t-stone-800 order-5 text-white flex flex-col justify-start items-center gap-10 md:gap-16 my-auto">
       <TooltipProvider>
         <TechStackIcons
           iconArray={CURRENT_TECSTACK}
