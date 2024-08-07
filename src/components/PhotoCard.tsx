@@ -31,7 +31,7 @@ const PhotoCard = () => {
       </Card>
       <Card className="glassmorphism mx-auto w-11/12 bg-neutral-800 flex justify-evenly border border-stone-800 rounded-t-none">
         <a
-          href="https://www.linkedin.com/in/kaushik-katikala-81a888259/"
+          href="https://www.linkedin.com/in/kaushik-katikala"
           target="_blank"
           rel="noopener noreferrer"
         >

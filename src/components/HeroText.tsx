@@ -27,7 +27,7 @@ const HeroText = () => {
       </p>
 
       <a
-        href="https://www.linkedin.com/in/kaushik-katikala-81a888259/"
+        href="https://www.linkedin.com/in/kaushik-katikala"
         target="_blank"
         rel="noopener noreferrer"
         className=" hover:text-white cursor-pointer"
