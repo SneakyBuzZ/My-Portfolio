@@ -13,7 +13,7 @@ const NavBar = () => {
         </a>
 
         <a
-          href="https://drive.google.com/file/d/1SXAFbc2o_4nHUekCHL2gdftNZLyajkU1/view?usp=sharing"
+          href="https://drive.google.com/file/d/1w54WQGBukcQcre3RPjJ1aCcGwkwn5GCX/view"
           target="_blank"
           rel="noopener noreferrer"
           className=" hover:text-white cursor-pointer"
